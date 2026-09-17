@@ -58,3 +58,28 @@ body {
     border-radius: 4px;
     font-size: 10px;
 }
+
+.library-top img {
+    display: block;
+    width: 100%;
+}
+
+.shelves {
+    width: 100%;
+    min-height: 5000px;
+    background-image: url("shelf.png");
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+.shelves img{
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
